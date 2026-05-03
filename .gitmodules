@@ -4,3 +4,6 @@
 [submodule "poc-service"]
 	path = poc-service
 	url = https://github.com/tsjahangiri/poc-service.git
+[submodule "poc-api"]
+	path = poc-api
+	url = https://github.com/tsjahangiri/poc-api.git
