@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.poc</groupId>
+    <artifactId>multi-repo-poc</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!--
+        This pom is an AGGREGATOR only.
+        It lets you build all submodules together with one command.
+        It is NOT deployed to Nexus/GitHub Packages.
+        Each submodule releases independently.
+    -->
+    <modules>
+        <module>poc-util</module>
+        <module>poc-service</module>
+    </modules>
+
+</project>
