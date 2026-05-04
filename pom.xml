@@ -16,6 +16,7 @@
     <modules>
         <module>poc-util</module>
         <module>poc-service</module>
+        <module>poc-api</module>
     </modules>
 
 </project>
